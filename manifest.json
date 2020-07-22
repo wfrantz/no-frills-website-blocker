@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "No Frills Website Blocker",
+  "version": "0",
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "green.svg"
+  },
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
