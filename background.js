@@ -10,7 +10,7 @@ browser.webRequest.onBeforeRequest.addListener(
 		return {cancel: true};
 	},
 	{
-		urls: blockedDomains.map(domain => `*://*.${domain}/*`),
+		urls: blockedDomains.map(domain => domain.includes('/') ? `*://*.${domain}*` : `*://*.${domain}/*`),
 		types: [ 'main_frame' ]
 	},
 	[ 'blocking' ]
