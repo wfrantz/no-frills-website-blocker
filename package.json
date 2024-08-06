@@ -1,0 +1,8 @@
+{
+  "name": "no-frills-website-blocker",
+  "author": "Winston Frantz",
+  "version": "1.0.0",
+  "devDependencies": {
+    "archiver": "*"
+  }
+}

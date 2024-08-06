@@ -1,1 +1,5 @@
-out.xpi
+/_metadata
+/node_modules/
+/out.xpi
+/package-lock.json
+/rules.json

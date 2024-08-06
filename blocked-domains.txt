@@ -1,0 +1,5 @@
+# See https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#filter-matching-charactgers for
+# pattern-matching syntax. For convenience, || is prepended to all lines, causing subdomains to be matched as well.
+example.com
+example.net
+example.org
